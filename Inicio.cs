@@ -221,7 +221,10 @@ namespace SistemaRecepcionHotel
             Hide();
         }
 
-      
+        private void nupFamiliar_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void chbPareja_CheckedChanged(object sender, EventArgs e)
         {

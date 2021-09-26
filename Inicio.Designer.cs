@@ -312,6 +312,12 @@ namespace SistemaRecepcionHotel
             this.nupFamiliar.Size = new System.Drawing.Size(43, 22);
             this.nupFamiliar.TabIndex = 16;
             this.nupFamiliar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nupFamiliar.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nupFamiliar.ValueChanged += new System.EventHandler(this.nupFamiliar_ValueChanged);
             // 
             // nupPersonal
             // 
@@ -326,6 +332,11 @@ namespace SistemaRecepcionHotel
             this.nupPersonal.Size = new System.Drawing.Size(43, 22);
             this.nupPersonal.TabIndex = 15;
             this.nupPersonal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nupPersonal.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // nupPareja
             // 
@@ -340,6 +351,11 @@ namespace SistemaRecepcionHotel
             this.nupPareja.Size = new System.Drawing.Size(43, 22);
             this.nupPareja.TabIndex = 14;
             this.nupPareja.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nupPareja.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // groupBox2
             // 
